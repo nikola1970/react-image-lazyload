@@ -25,7 +25,7 @@ class LazyImage extends React.Component {
         ) {
             this.observer.observe(this.imageRef.current);
         } else {
-            this.preloadImage(this.imageRef.current);
+            this.loadImage(this.imageRef.current);
         }
     }
 
