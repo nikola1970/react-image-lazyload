@@ -16,7 +16,7 @@ class App extends Component {
             <div className="App">
                 // used to make some empty space
                 <div className="preblock" />
-                // LazyImage components (url prop is only one that isrequired)
+                // LazyImage components (url prop is the only one that is required)
                 <LazyImage url={imgUrl1} />
                 <LazyImage url={imgUrl2} />
             </div>
